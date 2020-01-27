@@ -13,7 +13,7 @@
 }
 
 .jumbotron h2 {
-  color: white
+  color: white;
 }
 
 .portfolio {
@@ -25,6 +25,60 @@
   font-style: italic;
 }
 
-.panel-group {
-  color: rgb(255, 0, 170);
+.sidebar {
+  width: 30%;
+  float: right;
+  background-color: rgb(255, 0, 170);
+  color: white;
+  padding: 3%;
+  border-radius: 6px;
+}
+
+.sidebar h2 {
+  color: orange;
+}
+
+.column {
+  width: 300px;
+  float: left;
+}
+
+ul, ol, p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+
+.highlight {
+  border: 2px solid rgb(255, 0, 170);
+  padding: 6px;
+}
+
+.projects {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.background {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.interests {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.portfolio {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 700px) and (min-width: 480px) {
+  body {
+    background-color: black;
+    color: white;
+  }   
+  .row ul {
+    color: black;
+  }
 }

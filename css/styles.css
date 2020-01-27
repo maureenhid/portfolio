@@ -1,0 +1,30 @@
+.jumbotron h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.jumbotron {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  color: inherit;
+  background-color: rgb(255, 0, 170);
+  text-align: right;
+}
+
+.jumbotron h2 {
+  color: white
+}
+
+.portfolio {
+  color: orange;
+  font-size: 40px;
+}
+
+.language {
+  font-style: italic;
+}
+
+.panel-group {
+  color: rgb(255, 0, 170);
+}

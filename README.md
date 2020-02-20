@@ -8,7 +8,7 @@ This project consists of my portfolio webpage using HTML, custom CSS stylesheet 
 
 ## Setup/Installation Requirements
 
-Open the HTML page in a web browser
+Click on index.html or in the terminal open index.html
 
 ## Link to Portfolio
 
